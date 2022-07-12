@@ -1,6 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
+import React from "react";
 
 // components
 import Home from "./components/Home";
@@ -14,6 +15,11 @@ import AppLoading from "expo-app-loading";
 
 export default function App() {
   const [ready, setReady] = useState(false);
+
+
+
+
+
 
   // todo initial list
   const initialTodos = [];
